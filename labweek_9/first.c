@@ -13,4 +13,4 @@ void main()
     else
         printf("M and N are not equal\n");
 }
-/* Did I setup my VS Code VCS sucessfully?!I wonder I had I.*/
+/* Did I setup my VS Code VCS sucessfully?!I wonder I had I./
