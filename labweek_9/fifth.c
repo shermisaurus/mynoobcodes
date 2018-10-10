@@ -1,4 +1,4 @@
-//Probelm 5 in pdf
+//Probelm 7th in pdf
 #include <stdio.h>
 void main()
 {  int p,c,m,t,mp;
