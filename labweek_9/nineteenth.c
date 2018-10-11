@@ -35,3 +35,5 @@ int main()
     printf("Number of digits: %d", count);
 }
 */
+//https://brilliant.org/wiki/finding-digits-of-a-number/
+//Comes out that declaring datatype int to a decimal value is same as putting GIF or flooR VLue function as the article concludes.
