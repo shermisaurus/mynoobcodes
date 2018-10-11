@@ -14,3 +14,7 @@ int main()
     }
 return 0;
 }
+
+//Clearing output screen in C lamguage
+//https://www.includehelp.com/c-programming-questions/how-to-clear-output-screen-in-c.aspx
+//Thanks me later,Sherminator69's.
