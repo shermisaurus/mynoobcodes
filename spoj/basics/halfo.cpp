@@ -16,9 +16,9 @@ ntc
 #include <iostream>
 #include <string.h>
 using namespace std;
-void halfofhalf(char a[100][100])
+void halfofhalf(char a[100][100],int t)
 {
-    for (int i=0; i<4; i++)
+    for (int i=0; i<t; i++)
     {
         for (int j=0; j<strlen(a[i])/2; j+=2)
         cout<<a[i][j];
@@ -30,9 +30,15 @@ void halfofhalf(char a[100][100])
 int main()
 
 {
-    int t=4;
-    char array1[100][100]={"your","progress","is","noticeable"};
-    halfofhalf(array1);
+    int t;
+    char array1[100][100];
+    while(t<=100 && t>1)
+    cin>>t;
+
+    for(int i=0;i<t;i++)
+        cin>>array1[i];
+
+    halfofhalf(array1,t);
     return 0;
 
 }
