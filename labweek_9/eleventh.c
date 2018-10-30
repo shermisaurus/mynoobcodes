@@ -20,3 +20,5 @@ int main()
         printf("This is a special character.\n");  
     }  
 }
+
+//checked
