@@ -20,7 +20,8 @@ void halfofhalf(char a[100][100],int t)
 {
     for (int i=0; i<t; i++)
     {
-        for (int j=0; j<strlen(a[i])/2; j+=2)
+        cout<<a[i][0];
+        for (int j=1; j<strlen(a[i])/2; j+=2)
         cout<<a[i][j];
         cout<<"\n";
 
