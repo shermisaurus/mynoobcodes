@@ -22,7 +22,7 @@ int main()
 {
 int n,k,i=0;
 cin >> n;
-    while(n--)
+    while(n--) //https://www.dropbox.com/s/9aag31e8xndi6n1/Screenshot%20from%202018-10-30%2018-10-11.png?dl=0
     {
     string s;
     cin >> s;
