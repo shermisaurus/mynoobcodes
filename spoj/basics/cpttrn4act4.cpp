@@ -51,9 +51,9 @@ int t, l, c, i, j, h, w;
     scanf("%d %d",&l, &c);
     scanf("%d %d",&h, &w);
    
-            for(i=0; i<(l*(h + 1)) ; i++)
+            for(i=0; i<(l*(h + 1) + 1) ; i++)
             {
-            for(j=0; j<(c*(w + 1)) ; j++)
+            for(j=0; j<(c*(w + 1) + 1) ; j++)
                 {
                     putchar((i % (h + 1) == 0 || j % (w + 1) == 0) ? '*' : '.');
                 }
