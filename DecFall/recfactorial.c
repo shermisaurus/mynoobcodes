@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 unsigned long long fact(int m);
 
 int main()
