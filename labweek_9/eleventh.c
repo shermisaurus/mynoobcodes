@@ -19,6 +19,7 @@ int main()
     {  
         printf("This is a special character.\n");  
     }  
+    return 0;
 }
 
 //checked
